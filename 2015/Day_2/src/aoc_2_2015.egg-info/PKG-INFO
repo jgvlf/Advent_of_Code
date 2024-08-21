@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aoc-2-2015
+Version: 0.0.0
+Summary: The 2015, Day 2 Adventure of Code Challenge.
+Author-email: jgvlf <joaogabrielvlf@gmail.com>
+License: MIT
+Project-URL: Documentation, https://github.com/jgvlf/I_Was_Told_There_Would_Be_No_Math#readme
+Project-URL: Issues, https://github.com/jgvlf/I_Was_Told_There_Would_Be_No_Math/issues
+Project-URL: Source, https://github.com/jgvlf/I_Was_Told_There_Would_Be_No_Math
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pre-commit>3.1; extra == "dev"
+Requires-Dist: coverage[toml]>=6.5; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# I Was Told There Would Be No Math
+
+![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fjgvlf%2FNot_Quite_Lisp%2Fdeploy%2Fpyproject.toml)
+
+The 2015, Day 2 Adventure of Code Challenge.
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install aoc-2-2015
+```
+
+## License
+
+`aoc-2-2015` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

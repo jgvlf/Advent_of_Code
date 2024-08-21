@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools >= 65.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aoc-2-2015"
+dynamic = ["version"]
+description = 'The 2015, Day 2 Adventure of Code Challenge.'
+readme = "README.md"
+requires-python = ">=3.10"
+license = {"text" = "MIT"}
+keywords = []
+authors = [
+  { name = "jgvlf", email = "joaogabrielvlf@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit>3.1",
+  "coverage[toml]>=6.5",
+  "pytest",
+  "mypy>=1.0.0",
+  "ruff",
+]
+test = [
+  "pytest",
+]
+
+[project.urls]
+Documentation = "https://github.com/jgvlf/I_Was_Told_There_Would_Be_No_Math#readme"
+Issues = "https://github.com/jgvlf/I_Was_Told_There_Would_Be_No_Math/issues"
+Source = "https://github.com/jgvlf/I_Was_Told_There_Would_Be_No_Math"
+
+[tool.setuptools.dynamic]
+version = {file = "src/aoc-2-2015.__version__"}
+
+[tool.ruff]
+line-length = 120
+include = ["pyproject.toml", "src/aoc-2-2015/*.py", "tests/**/*.py"]
+exclude = []
+
+[tool.ruff.format]
+preview = true
+
+[tool.ruff.lint]
+preview = true
+ignore = ["TRY", "ARG002"]
