@@ -1,2 +1,2 @@
-# Advent_of_Code
+# Advent of Code
 My Advent of Code Repo
